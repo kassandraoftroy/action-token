@@ -1,0 +1,19 @@
+{
+    "name": "action-token",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "directories": {
+      "test": "test"
+    },
+    "scripts": {
+      "local-evm": "kill -9 $(lsof -t -i:8545) ; nohup ganache-cli -s test-action-token -p 8545 &",
+      "test": "npm run local-evm && cd test && node test.js && kill -9 $(lsof -t -i:8545)"
+    },
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+      "ethers": "^5.0.19",
+      "ganache-cli": "^6.12.1"
+    }
+}
