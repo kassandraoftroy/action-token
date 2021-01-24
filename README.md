@@ -2,8 +2,6 @@
 
 ACTION is a new continuous ERC20 token backed by DAI reserves for permissionless gaming on Ethereum
 
-Live on mainnet [here](https://etherscan.io/token/0x679e8bf1be2195b899fb36cd04a7d7d01089b548)
-
 ## Install and Test
 
 1. Clone this repository
